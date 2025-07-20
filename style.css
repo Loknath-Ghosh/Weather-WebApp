@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  /* height: 93vh; */
+  width: 100%;
+  background: radial-gradient(circle, #ffff, rgb(2, 4, 109), rgb(100, 229, 255));
+}
+
+.search {
+  /* background-color: rgb(170, 235, 255); */
+  padding: 30px;
+  border-radius: 16px;
+  width: 50%;
+  height: 85vh;
+  left: 50%;
+  transform: translateX(50%);
+  box-shadow: 4px 4px 18px #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin-top: 50px;
+}
+
+.search input {
+  width: 70%;
+  height: 50px;
+  padding: 12px;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 5px 4px 12px #010239;
+}
+
+.search-icon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 22px;
+  left: 66%;
+}
+
+.search-icon .icon {
+  position: absolute;
+  font-size: 24px;
+  color: #02046d;
+  pointer-events: none;
+}
+
+.search input::placeholder {
+  position: relative;
+  left: 10px;
+  color: rgb(2, 4, 109);
+}
+
+#temp {
+  position: absolute;
+  justify-content: center;
+  font-size: 80px;
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+  left: 30%;
+  top: 25%;
+  border-radius: 20px;
+  box-shadow: 5px 4px 12px #010239;
+  padding: 32px 32px 32px 24px;
+}
+
+#temperature-value {
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+
+#city-name {
+  font-size: 32px;
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  color: #ffff;
+}
+
+.temp-img-div-class {
+  display: flex;
+  flex-direction: row;
+}
+
+.temp-img-div-class img {
+  margin-right: 18px;
+  width: 20px;
+}
+
+#weather-Img img {
+  position: absolute;
+  left: 51%;
+  top: 23%;
+  width: 271px;
+  height: 223px;
+  border: none;
+}
+
+.sub-report-main-div {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 58%;
+  left: 30%;
+}
+
+.sub-report {
+  font-size: 44px;
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  color: #ffff;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 5px 4px 12px #010239;
+  margin-right: 16px;
+}
+
+.sub-report p {
+  font-size: 32px;
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+
+.para-class-const {
+  font-size: 32px;
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  color: #ffff;
+}
+
+#feels-like {
+  padding: 18px 54px 18px 54px;
+}
+
+#humidity {
+  padding: 18px 54px 18px 54px;
+}
+
+#wind-speed {
+  padding: 18px 40px 18px 40px;
+}
+
+.sub-report img {
+  width: 60px;
+}

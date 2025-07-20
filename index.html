@@ -1,0 +1,64 @@
+<!-- Open this applicarion using the url "http://localhost:5500" -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Search for Weather</title>
+</head>
+
+<body>
+<!-- ************************************************************* SEARCH BAR ************************************************************* -->
+    <div class="search">
+        <div class="search-icon"><i class="fa-solid fa-magnifying-glass-location icon"></i></div>
+        <input id="search-input-id" class="searchinput" type="text" placeholder="search for a city ...">
+    </div>
+<!-- ***************************************************** TEMPERATURE & WEATHER IMAGE ***************************************************** -->
+    <div class="weather-details">
+        <div class="temp-img-div-class">
+            <div id="temp">
+                <img class="weather-img" src="myImg/thermometer.png"><span id="temperature-value">30.84°C</span>
+                <p id="city-name">Kolkata</p>
+            </div>
+            <div id="weather-Img">
+                <img id="weather-condition-img" src="myImg/Tornado.png" alt="Weather condition">
+            </div>
+        </div>
+<!-- ************************************************* FEELS-LIKE | HUMIDITY | WIND-SPEED ************************************************* -->
+        <div class="sub-report-main-div">
+            <div id="feels-like" class="sub-report">
+                <img src="myImg/feelsLike.png">
+                <p class="para-class-const">
+                    Feels Like
+                </p>
+                <p id="feels-like-para">37.17°C</p>
+            </div>
+            <div id="humidity" class="sub-report">
+                <img src="myImg/humidity.png">
+                <p class="para-class-const">
+                    Humidity
+                </p>
+                <p id="humidity-para">70%</p>
+            </div>
+            <div id="wind-speed" class="sub-report">
+                <img src="myImg/wind.png">
+                <p class="para-class-const">
+                    Wind Speed
+                </p>
+                <p id="wind-speed-para">3.96 m/s</p>
+            </div>
+        </div>
+    </div>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
