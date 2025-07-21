@@ -1,4 +1,4 @@
-
+const apiKey = "4aed7cfc7aba8120a35f340a27372e4d";
 // ***************************************** WEATHER CONDITION OF A CITY YOU SEARCHED *****************************************
 document.getElementById("search-input-id").addEventListener("keydown", function (event) {
     if (event.key === "Enter") {
